@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  place-items: center;
+  scroll-behavior: smooth;
+  background: rgb(249, 243, 235);
+  background: linear-gradient(
+    0deg,
+    rgba(249, 243, 235, 0.8) 0%,
+    rgba(249, 243, 235, 1) 100%
+  );
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  max-width: 900px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+header {
+  background-color: #f9f3eb;
+  background-image: url("../public/2028155.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+.over__terapias {
+  overflow-x: scroll;
+}
+.clip {
+  clip-path: polygon(100% 0, 100% 81%, 50% 100%, 0 82%, 0 0);
+}
+
+.pic__container {
+  border-radius: 1rem;
+  background: rgb(249, 243, 235);
+  background: linear-gradient(
+    0deg,
+    rgba(249, 243, 235, 1) 0%,
+    rgba(220, 136, 213, 1) 100%
+  );
+}
+
+#cursos {
+  background-image: url("../public/dark.svg");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position-x: 100%;
+  background-position-y: 80%;
+}
+
+#contacto {
+  background-image: url("../public/mandala.png");
+  background-repeat: no-repeat;
+  background-size: 135%;
+}
